@@ -1,0 +1,109 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    background-color: darkslategray;
+    height: 50%;
+    width: 100%;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 233px 233px 233px;
+    grid-template-rows: 175px 175px 175px;
+    background-color: darkslategray;
+    height: 37%;
+    width: 100%;
+}
+
+body {
+    max-width: max-content;
+    margin: auto;
+    width: 700px;
+    border: 3px solid rgb(94, 146, 128);
+    padding: 10px;
+    align-items: center;
+    background-color: darkslategray;
+    color: lightcyan;
+}
+
+.centered { 
+    width: 100%; /* Set a width */ 
+    margin: 0 auto; /* Center the block */ 
+} 
+
+h1 {
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+    
+a:visited {
+    color: rgb(202, 222, 255);
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* CSS */
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #00bd68;
+}

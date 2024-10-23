@@ -1,0 +1,64 @@
+<head>
+    <style>
+        body {
+            text-align: center;
+            background-color: darkslategray;
+        }
+
+        p2 {
+            font-weight: 900;
+            font-size: 30px;
+        }
+    </style>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br>
+    <img src="GeometryDash.png" alt="GD logo" width="100"> <br>
+    <h1>Geometry Dash</h1>
+    <h3>Screenshots:</h3>
+    <div class="centered">
+        <div class="wrapper2">
+            <div>
+                <img src="images/GD (1).png" alt="GD" width="200"> <br>
+            </div>
+            <div>
+                <img src="images/GD (2).png" alt="GD" width="200"> <br>
+            </div>
+            <div>
+                <img src="images/GD (3).png" alt="GD" width="200"> <br>
+            </div>
+            <div>
+                <img src="images/GD (4).png" alt="GD" width="200"> <br>
+            </div>
+            <div>
+                <img src="images/GD (5).png" alt="GD" width="200"> <br>
+            </div>
+          </div>
+    </div>
+    <h3>Description:</h3>
+    <p>Geometry Dash - you know the drill. Contains 9 levels from the base game.</p>
+    <br>
+    <button class="button-41" role="button" onclick="location.href = 'games/GeometryDashGame.html';">Play online for free!</button>
+    <h2>Downloads</h2> 
+    <p> format: html</p>
+    <button class="button-41" role="button" onclick="downloadFile()">Download for free now!</button>
+    <script>
+        function downloadFile() {
+            const link = document.createElement('a');
+            link.href = 'games/GeometryDashGame.html';  // Replace with the actual file path
+            link.download = 'GeometryDashGame.html'; // Replace with the desired file name
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        </script>
+    <!--<a href="GeometryDash.png" download="GeometryDash.html">GeometryDash.html</a>!-->
+    <br>
+    <br>
+    <a href="index.html">Go back</a>
+</body>
